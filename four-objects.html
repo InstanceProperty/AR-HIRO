@@ -1,0 +1,27 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<!-- chmo test-->
+<!DOCTYPE html>
+ <head>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<title>
+	AR.js Semi-Minimal Example (using Hiro Marker)
+</title>
+<body style="margin : 0px; overflow: hidden;">
+	<a-scene embedded arjs="sourceType: webcam;">
+		<a-cone position="0.0 10 0.0" material="color: #0080ff; opacity:0.5" rotation="0 0 1"  radius-bottom="2.00" radius-top="1.00" height="3.80" ></a-cone>
+		<a-ring position="0.0 5 5" material="color: #80ff30; opacity:0.5" rotation="0.5 0 0"  radius-inner="0.50" radius-outer="1.50" ></a-ring>
+		<a-sphere position="1.0 0.0 0.0" material="color: #80ff00; opacity:0.5" rotation="0 0 0"  radius="0.50" ></a-sphere>
+		<a-box position="0 0.5 0" material="color: #444444; opacity: 0.33" roatation="0 0.5 0"></a-box>
+		<a-marker-camera preset="hiro"></a-marker-camera>
+	</a-scene>
+</body>
+<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/43b259a031cd4ce2aab5017f331c03d5/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+	<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+		<a href="https://sketchfab.com/models/43b259a031cd4ce2aab5017f331c03d5?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Chicken</a>
+		by <a href="https://sketchfab.com/andmish?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">andmish</a>
+		on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+	</p>
+    </div>
+    
